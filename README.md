@@ -1,5 +1,5 @@
-# About
-Repository for CS 591 W1 Active Learning in Machine Translation and Error Classification.
+# Motivation
+This is the repository for CS 591 W1 Active Learning in Machine Translation and Error Classification. We explore a model-based Active Learning method in Neural Machine Translation, for translating from two low-resource languages, Gujarati and Somali, to English, which utilizes the multi-headed multi-layered encoderdecoder attention weights of the Transformer architecture. Our approach examines the target-to-source sentence coverage in Neural Machine Translation decoding as a sentence scoring technique, for iterative parallel sentence querying, to fine-tune a Neural Machine Translation model in an incremental way. Our research uses the translation BLEU scores and the linguistic errors of the NMT output translations as metrics of the translation quality and of the effect of the Active Learning method, and shows no major differences in the contributions of the different attention weights, calling for more complex methods of analysis.
 
 # How to Run
 
@@ -18,4 +18,3 @@ Repository for CS 591 W1 Active Learning in Machine Translation and Error Classi
 1. Navigate to Experiments/Error Classification/classification_plots.ipynb
 2. Change paths where applicable. 
 3. Run the code under different marked down sections in the file for specific plots. 
-
